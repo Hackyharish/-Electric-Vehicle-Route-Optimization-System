@@ -18,7 +18,7 @@
 
 ## 👥 Authors
 
-**[Harish R](mailto:cb.en.u4eee23112@cb.students.amrita.edu)** · **[Chandra Mouli Kunapuli](mailto:cb.en.u4eee23053@cb.students.amrita.edu)**
+**[Harish R](https://www.linkedin.com/in/harish-r-8b68a333b/)** · **[Chandra Mouli Kunapuli](https://www.linkedin.com/in/ckmouli3966/)**
 
 Department of Electrical and Electronics Engineering  
 Amrita Vishwa Vidyapeetham, Coimbatore, India
@@ -299,7 +299,7 @@ Battery SoC analysis over **18 charging stops** along the A* Road-Trip route:
 - 🔋 Auto-recharge events at Stop 8 (43% → 80%) and Stop 14 (41% → 80%)
 - 🔋 Recharge ceiling capped at **80% SoC**
 
-![Battery SoC Profile](Images/fig9_battery_soc.png)
+![Battery SoC Profile](Images/Soc_profile.png)
 
 ---
 
