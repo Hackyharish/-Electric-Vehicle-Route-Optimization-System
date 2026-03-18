@@ -12,7 +12,7 @@
 ![Stations](https://img.shields.io/badge/Charging%20Stations-59%2C904-00d4ff?style=for-the-badge)
 ![R2 Score](https://img.shields.io/badge/R%C2%B2%20Score-0.9998-success?style=for-the-badge)
 
-![EV-ROS Banner](assets/banner.png)
+![EV-ROS Banner](images/banner.png)
 
 ---
 
