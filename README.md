@@ -97,7 +97,7 @@ EV-ROS is a modular **8-step pipeline** spanning four subsystems:
 └──────────────┴───────────────┴──────────────┴───────────────┘
 ```
 
-![System Architecture Diagram](assets/system_architecture.png)
+![System Architecture Diagram](Images\block_diagram.jpg)
 
 ---
 
@@ -133,9 +133,9 @@ The system operates on the **[NREL Alternative Fuels Station Locator](https://af
 | SemaCharge | 2,178 |
 | Circuit électrique | 1,979 |
 
-![EV Station Distribution](assets/fig1_station_distribution.png)
+![EV Station Distribution](Images/fig1_station_distribution.png)
 
-![Charging Infrastructure Breakdown](assets/fig2_charging_infrastructure.png)
+![Charging Infrastructure Breakdown](Images/fig2_charging_infrastructure.png)
 
 ---
 
@@ -192,11 +192,11 @@ Three Random Forest regressors are bundled into an `EVPredictor` class, trained 
 
 > RF was selected as the final model for lowest MAE, hyperparameter robustness, native feature importance, and zero preprocessing dependency.
 
-![ML Algorithm Comparison](assets/fig3_ml_comparison.png)
+![ML Algorithm Comparison](Images\Feature_importance.png)
 
-![RF Feature Importance](assets/fig4_feature_importance.png)
+![RF Feature Importance](Images/fig4_feature_importance.png)
 
-![Actual vs Predicted](assets/fig5_actual_vs_predicted.png)
+![Actual vs Predicted](Images/fig5_actual_vs_predicted.png)
 
 ---
 
@@ -257,7 +257,7 @@ $$Q(s,a) \leftarrow Q(s,a) + \alpha \left[ r + \gamma \max_{a'} Q(s', a') - Q(s,
 | Episodes | 1,000 |
 | Exploitation starts | Episode 562 |
 
-![Q-Learning Training Convergence](assets/fig6_ql_convergence.png)
+![Q-Learning Training Convergence](Images/fig6_ql_convergence.png)
 
 ---
 
@@ -271,7 +271,7 @@ $$Q(s,a) \leftarrow Q(s,a) + \alpha \left[ r + \gamma \max_{a'} Q(s', a') - Q(s,
 | 🗺️ Road-Trip | 536 | 540 | 22.1 | **0.8** |
 | 💵 Budget | 514 | 530 | **8.4** | 0.5 |
 
-![Routing Profile Comparison](assets/fig7_routing_profiles.png)
+![Routing Profile Comparison](Images/fig7_routing_profiles.png)
 
 ---
 
@@ -286,7 +286,7 @@ $$Q(s,a) \leftarrow Q(s,a) + \alpha \left[ r + \gamma \max_{a'} Q(s', a') - Q(s,
 | 🤖 RL Agent | 525.3 | 580 | 21.0 | 0.4 |
 | **Best vs GPS** | **−4.8%** | **−21.0%** | **−71.5%** | **+167%** |
 
-![Full Algorithm Comparison](assets/fig8_algorithm_comparison.png)
+![Full Algorithm Comparison](Images/fig8_algorithm_comparison.png)
 
 ---
 
@@ -299,7 +299,7 @@ Battery SoC analysis over **18 charging stops** along the A* Road-Trip route:
 - 🔋 Auto-recharge events at Stop 8 (43% → 80%) and Stop 14 (41% → 80%)
 - 🔋 Recharge ceiling capped at **80% SoC**
 
-![Battery SoC Profile](assets/fig9_battery_soc.png)
+![Battery SoC Profile](Images/fig9_battery_soc.png)
 
 ---
 
