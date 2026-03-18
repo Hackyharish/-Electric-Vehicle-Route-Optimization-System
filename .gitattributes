@@ -1,0 +1,8 @@
+# Treat CSV files as text (so diffs work)
+*.csv text
+
+# Normalize line endings (important if people use Windows + Unix)
+*.csv eol=lf
+
+# Use a custom diff driver optimized for CSV
+*.csv diff=csv
